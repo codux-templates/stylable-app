@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import { App } from '../../../components/app';
+import { App } from '../../../app';
 
 export default createBoard({
     name: 'App',

@@ -1,5 +1,5 @@
 <div align="center">  
-    <img height="50"src="./src/assets/images/codux.svg">  
+    <img height="50"src="./src/assets/codux.svg">  
     <h1 ><img height="40"src="./src/assets/stylable.svg"> Stylable template for Codux</h1>
 </div>
 
@@ -11,9 +11,9 @@ This [Stylable](https://github.com/wix/stylable)-powered application was bootstr
 
 It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
 
--   Edit, render and compose apps that make use of React-based components.
--   Create React-based components with TypeScript and Stylable support.
--   Visually edit in real-time and in an isolated environment.
+- Edit, render and compose apps that make use of React-based components.
+- Create React-based components with TypeScript and Stylable support.
+- Visually edit in real-time and in an isolated environment.
 
 ### Development
 

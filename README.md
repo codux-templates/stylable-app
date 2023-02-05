@@ -9,7 +9,7 @@ Codux is an all-in-one visual development environment. Whether you’re starting
 
 This [Stylable](https://github.com/wix/stylable)-powered application was bootstrapped with `create-stylable-app`.
 
-It includes a single React component to start your project with, a sample `codux.config.json` with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
+It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
 
 -   Edit, render and compose apps that make use of React-based components.
 -   Create React-based components with TypeScript and Stylable support.

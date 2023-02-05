@@ -1,6 +1,6 @@
 <div align="center">  
     <img height="50"src="./src/assets/images/codux.svg">  
-    <h1 ><img height="24"src="./src/assets/blueprint.svg">Stylable template for Codux</h1>
+    <h1 ><img height="40"src="./src/assets/stylable.svg"> Stylable template for Codux</h1>
 </div>
 
 ### A Visual IDE for React Projects

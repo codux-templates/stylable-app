@@ -1,18 +1,18 @@
 <div align="center">  
     <img height="50"src="./src/assets/codux.svg">  
-    <h1 ><img height="40"src="./src/assets/stylable.svg"> Stylable template for Codux</h1>
+    <h1><img height="40"src="./src/assets/stylable.svg"> Stylable App template for Codux</h1>
 </div>
 
 ### A Visual IDE for React Projects
 
 Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
 
-This [Stylable](https://github.com/wix/stylable)-powered application was bootstrapped with `create-stylable-app`.
+This project was bootstrapped with [`create-stylable-app`](https://www.npmjs.com/package/create-stylable-app).
 
 It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
 
-- Edit, render and compose apps that make use of React-based components.
-- Create React-based components with TypeScript and Stylable support.
+- Edit, render and compose apps that make use of **`React`**-based components.
+- Create components with **`TypeScript`** and **[`Stylable`](https://github.com/wix/stylable)** support.
 - Visually edit in real-time and in an isolated environment.
 
 ### Development

@@ -17,7 +17,12 @@ export default {
                 },
             },
             {
-                test: /\.(png|jpg|jpeg|gif|svg|eot|ttf|woff|woff2)$/,
+                test: /\.svg$/i,
+                issuer: /\.[jt]sx?$/,
+                use: ['@svgr/webpack'],
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif|eot|ttf|woff|woff2)$/,
                 type: 'asset',
             },
         ],

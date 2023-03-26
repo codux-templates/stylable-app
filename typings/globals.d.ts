@@ -5,6 +5,15 @@ declare module '*.st.css' {
     export default defaultExport;
 }
 
+declare module '*.svg' {
+    import * as React from 'react';
+
+    export const ReactComponent: React.FunctionComponent<
+        React.ComponentProps<'svg'> & { title?: string }
+    >;
+    export default ReactComponent;
+}
+
 declare module '*.png' {
     const urlToFile: string;
     export default urlToFile;
@@ -21,11 +30,6 @@ declare module '*.jpeg' {
 }
 
 declare module '*.gif' {
-    const urlToFile: string;
-    export default urlToFile;
-}
-
-declare module '*.svg' {
     const urlToFile: string;
     export default urlToFile;
 }

@@ -1,6 +1,6 @@
 import type React from 'react';
 import { st, classes } from './header.st.css';
-import { ReactComponent as StylableLogo } from './assets/stylable.svg';
+import StylableLogo from './assets/stylable.svg';
 
 export interface HeaderProps {
     className?: string;
@@ -19,7 +19,8 @@ export const Header: React.FC<HeaderProps> = ({ className }) => {
                 >
                     Stylable!
                 </a>{' '}
-                <StylableLogo
+                <img
+                    src={StylableLogo}
                     className={classes.logo}
                     width="60"
                     height="60"

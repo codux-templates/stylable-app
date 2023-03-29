@@ -11,7 +11,13 @@ declare module '*.svg' {
     export const ReactComponent: React.FunctionComponent<
         React.ComponentProps<'svg'> & { title?: string }
     >;
+
     export default ReactComponent;
+}
+
+declare module '*.svg?url' {
+    const assetUrl: string;
+    export default assetUrl;
 }
 
 declare module '*.png' {

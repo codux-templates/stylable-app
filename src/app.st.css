@@ -1,3 +1,4 @@
+@st-import './globals.css';
 @st-import Header from './header.st.css';
 
 .root {}

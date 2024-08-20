@@ -1,16 +1,16 @@
-:global(*),
-:global(::before),
-:global(::after) {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
-:global(html),
-:global(body) {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-:global(html) {
+html {
   background-color: rgb(37, 37, 38);
   color: white;
   font-family:
@@ -39,8 +39,8 @@
     "Noto Color Emoji";
 }
 
-:global(a),
-:global(a:visited) {
+a,
+a:visited {
   color: inherit;
   cursor: pointer;
 }
